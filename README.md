@@ -18,11 +18,15 @@ The core objective is to formulate a data-backed **Product R&D Strategy (Build /
 
 ```text
 ├── Docs/                                    # Capstone documentation, presentations & project charters
-│   ├── Pod2_分析框架与增长点.md                # Strategic analysis framework & growth opportunities
-│   ├── Pod2_数据范围_清理_分析方案.md            # Data scope, cleaning rules, and analytical methodology
-│   ├── Pod2_Preliminary_Discovery.pdf       # Preliminary research discovery presentation
-│   ├── Pod_2_TeamCharter_v1.docx            # Team Charter and project timeline
-│   └── Pod_2_AIDisclosureStatement_v1.docx  # AI Disclosure and compliance statement
+│   ├── Pod_2_Analysis_Framework_and_Growth_Levers.md   # Strategic analysis framework & growth opportunities (EN)
+│   ├── Pod_2_Data_Scope_Cleaning_and_Analysis_Plan.md  # Data scope, cleaning rules, and methodology (EN)
+│   ├── Analysis Command & Result.md                    # SQLite query executions & outputs
+│   ├── Pod2_Preliminary_Discovery.pdf                  # Preliminary research discovery presentation
+│   ├── Pod_2_TeamCharter_v1.docx                       # Team Charter and project timeline
+│   ├── Pod_2_AIDisclosureStatement_v1.docx             # AI Disclosure and compliance statement
+│   └── _zh_source/                                     # Chinese source documentation
+│       ├── Pod2_分析框架与增长点.md
+│       └── Pod2_数据范围_清理_分析方案.md
 ├── Teammate_Data/                           # Raw input files and teammate contributions
 │   ├── ivy_pregnancy_tracker_review.xlsx
 │   ├── ivy_wellness_coach_reviews.xlsx
