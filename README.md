@@ -19,6 +19,7 @@ The core objective is to formulate a data-backed **Product R&D Strategy (Build /
 ```text
 ├── Docs/                                    # Capstone documentation, presentations & project charters
 │   ├── Pod2_Gemini_Antigravity_Project_Overview_and_Strategic_Analysis.md # Comprehensive project review & strategic analysis (Gemini/Antigravity)
+│   ├── DeepSeek_Harness_Project_Handover_and_Understanding.md # Project handover, verification register & audit (DeepSeek)
 │   ├── Pod_2_Analysis_Framework_and_Growth_Levers.md   # Strategic analysis framework & growth opportunities (EN)
 │   ├── Pod_2_Data_Scope_Cleaning_and_Analysis_Plan.md  # Data scope, cleaning rules, and methodology (EN)
 │   ├── Analysis Command & Result.md                    # SQLite query executions & outputs

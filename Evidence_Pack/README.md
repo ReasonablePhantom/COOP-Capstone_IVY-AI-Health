@@ -105,6 +105,10 @@ snippet, the raw file name and the date checked.
 
 ## Gate
 
-`05_check_coverage.py` currently reports **12 of 15 requirements not yet fully supported**,
-with two P0 blockers: individual price points, and a confirmed answer on export/backup.
-Fix those two before the Night 6 deck, because Viability and Feasibility both rest on them.
+Run `05_check_coverage.py` for the current state; the numbers below move as rows get filled, so
+treat the script output as authoritative, not this paragraph.
+
+At the last run: **10 of 15 requirements supported, 5 missing** — theme coding of the 49 sampled
+reviews, the habit survey, forum quotes, Google Trends, and Ivy's own platform language (dated).
+None of those five is a P0 blocker any more; they are the remaining gaps in Desirability and
+Strategic fit.
