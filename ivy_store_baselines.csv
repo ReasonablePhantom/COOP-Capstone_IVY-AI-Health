@@ -1,0 +1,5 @@
+app_name,store,store_id,overall_rating,total_ratings_count,total_reviews_count,installs,date_checked
+IVY Wellness Coach,Google Play Store (US),com.bellabeat.cacao,3.46,3796,940,"1,000,000+",2026-10-28
+IVY Wellness Coach,Apple App Store (US),1005052173,3.92,409,N/A (Apple RSS max 500),N/A,2026-10-28
+IVY Period & Pregnancy Tracker,Google Play Store (US),org.nanobit.perioddiary,3.2,9875,519,"500,000+",2026-10-28
+IVY Period & Pregnancy Tracker,Apple App Store (US),436762566,4.66,67901,N/A (Apple RSS max 500),N/A,2026-10-28
