@@ -1,0 +1,11 @@
+generated_at,app_name,app_short,scenario,n,mean_rating,share_1_2,share_5
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Tracker,primary sample (25 per app),25,4.24,0.16,0.72
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Tracker,"12-month corpus, both stores",93,3.312,0.4086,0.4839
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Tracker,"12-month corpus, iOS only",47,2.553,0.5957,0.2979
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Tracker,"12-month corpus, Play only",46,4.087,0.2174,0.6739
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Tracker,"12-month corpus, burst rows removed",53,2.528,0.6038,0.2453
+2026-11-06T20:03:12Z,IVY Wellness Coach,Coach,primary sample (25 per app),24,3.917,0.2917,0.7083
+2026-11-06T20:03:12Z,IVY Wellness Coach,Coach,"12-month corpus, both stores",24,3.917,0.2917,0.7083
+2026-11-06T20:03:12Z,IVY Wellness Coach,Coach,"12-month corpus, iOS only",2,1.5,1.0,0.0
+2026-11-06T20:03:12Z,IVY Wellness Coach,Coach,"12-month corpus, Play only",22,4.136,0.2273,0.7727
+2026-11-06T20:03:12Z,IVY Wellness Coach,Coach,"12-month corpus, burst rows removed",9,2.111,0.7778,0.2222

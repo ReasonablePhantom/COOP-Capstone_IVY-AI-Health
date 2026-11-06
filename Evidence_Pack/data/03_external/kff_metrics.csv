@@ -1,0 +1,6 @@
+generated_at,metric,segment,value,unit,survey,period,source,source_url,verified,status,notes
+2026-11-06T20:03:41Z,used_ai_chatbot_for_health,Women,42,percent,KFF (Sept 2026),2026-09,data-PmfG5.csv (local),,yes_local_file,COLLECTED,use figure only; trust and methods still missing
+2026-11-06T20:03:41Z,used_ai_chatbot_for_health,Men (reference),46,percent,KFF (Sept 2026),2026-09,data-PmfG5.csv (local),,yes_local_file,COLLECTED,
+2026-11-06T20:03:41Z,trust_ai_health_information,Women,25,percent,KFF (Sept 2026),2026-09,raw/kff_women_online_health.html,https://www.kff.org/womens-health-policy/womens-experiences-accessing-health-information-online-trusted-sources-and-contraceptive-information/,yes_raw,COLLECTED,pod notes cite 25%; confirm on the page before use
+2026-11-06T20:03:41Z,trust_doctor_health_information,Women,86,percent,KFF (Sept 2026),2026-09,raw/kff_women_online_health.html,https://www.kff.org/womens-health-policy/womens-experiences-accessing-health-information-online-trusted-sources-and-contraceptive-information/,yes_raw,COLLECTED,pod notes cite 86%; confirm on the page before use
+2026-11-06T20:03:41Z,sample_size_and_method,US adults,,n,KFF (Sept 2026),2026-09,,,,NOT_COLLECTED,required for the proxy statement

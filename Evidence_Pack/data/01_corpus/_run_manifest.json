@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-11-06T20:03:12Z",
+  "inputs": [
+    "ivy_reviews_clean.csv",
+    "pod2_25_recent_sample.csv",
+    "ivy_store_baselines.csv",
+    "dedupe_report.csv"
+  ],
+  "input_rows": {
+    "reviews_clean": 6226,
+    "sample_50": 49,
+    "store_baseline": 4
+  },
+  "note": "All values computed from local files only. Nothing fetched, nothing imputed."
+}

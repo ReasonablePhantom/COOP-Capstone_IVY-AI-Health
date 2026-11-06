@@ -27,6 +27,10 @@ The core objective is to formulate a data-backed **Product R&D Strategy (Build /
 │   └── _zh_source/                                     # Chinese source documentation
 │       ├── Pod2_分析框架与增长点.md
 │       └── Pod2_数据范围_清理_分析方案.md
+├── Evidence_Pack/                           # Multi-source quantitative & qualitative evidence audit pack
+│   ├── README.md                            # Methodology, source registry & run sequence
+│   ├── data/                                # Status, corpus metrics, store facts & external sources
+│   └── scripts/                             # Pipelines to compute tables, fetch data & verify rubric coverage
 ├── Teammate_Data/                           # Raw input files and teammate contributions
 │   ├── ivy_pregnancy_tracker_review.xlsx
 │   ├── ivy_wellness_coach_reviews.xlsx

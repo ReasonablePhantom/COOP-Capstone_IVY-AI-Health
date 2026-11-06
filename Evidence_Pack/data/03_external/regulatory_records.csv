@@ -1,0 +1,3 @@
+generated_at,record_id,agency,pathway,subject,decision_date,indication,device_type,source_url,verified,status,notes
+2026-11-06T20:03:41Z,DEN170052,FDA,De Novo,Natural Cycles,,,,https://www.accessdata.fda.gov/cdrh_docs/pdf17/DEN170052.pdf,,NOT_COLLECTED,the Brief p.10 names this record; decision date and indication must be read from the source
+2026-11-06T20:03:41Z,FTC-FLO-2021,FTC,Consent order,Flo Health,,,,https://www.ftc.gov/,,NOT_COLLECTED,the Brief p.11 names this case; locate the 2021 press release on ftc.gov

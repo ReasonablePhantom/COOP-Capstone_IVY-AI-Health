@@ -1,0 +1,5 @@
+generated_at,app_name,store,n,mean_rating,share_1_2,share_5,first_date,last_date,n_burst,share_non_english,source_file
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Apple App Store,4519,3.512,0.2959,0.4193,2011-06-04,2026-10-17,6,0.048,ivy_reviews_clean.csv
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Google Play,500,2.514,0.6,0.27,2020-10-16,2026-09-05,34,0.018,ivy_reviews_clean.csv
+2026-11-06T20:03:12Z,IVY Wellness Coach,Apple App Store,707,3.139,0.3748,0.2942,2015-07-12,2026-02-08,0,0.0057,ivy_reviews_clean.csv
+2026-11-06T20:03:12Z,IVY Wellness Coach,Google Play,500,2.34,0.62,0.168,2018-12-28,2026-09-06,15,0.026,ivy_reviews_clean.csv

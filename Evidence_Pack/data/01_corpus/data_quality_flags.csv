@@ -1,0 +1,8 @@
+generated_at,flag,value,expectation,status,action
+2026-11-06T20:03:12Z,date_parse_failures,0,0 with format='mixed',PASS,none
+2026-11-06T20:03:12Z,label_blank_primary_theme,49,0 before Night 4,FAIL,code every sampled review against a 7-theme taxonomy
+2026-11-06T20:03:12Z,primary_sample_rows,49,"50 (25 per app, per the Brief)",FAIL,re-pull the missing Coach review or disclose n=49
+2026-11-06T20:03:12Z,share_non_english,0.0390,disclosed in limits,INFO,"read 30 and re-tag, or use multilingual keywords"
+2026-11-06T20:03:12Z,share_duplicated_text,0.0524,known: same phrases repeated by different users,INFO,de-duplicate on review_id only
+2026-11-06T20:03:12Z,cross_batch_duplicates_removed,500,documented in the methodology,INFO,"state that removal used text matching, not review_id"
+2026-11-06T20:03:12Z,coach_ios_staleness_days,270,under 30 days at submission,FAIL,"re-scrape the Coach, or disclose the window difference"

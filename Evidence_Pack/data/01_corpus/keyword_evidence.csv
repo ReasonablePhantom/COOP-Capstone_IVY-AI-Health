@@ -1,0 +1,15 @@
+generated_at,keyword_group,rubric_cell,app_name,n_matched,n_app_total,share,regex,mean_rating_matched
+2026-11-06T20:03:12Z,lost_data,D,IVY Period & Pregnancy Tracker,426,5019,0.0849,lost|lost data|deleted|erased|disappear|gone|wipe,1.617
+2026-11-06T20:03:12Z,lost_data,D,IVY Wellness Coach,56,1207,0.0464,lost|lost data|deleted|erased|disappear|gone|wipe,1.929
+2026-11-06T20:03:12Z,paywall,V,IVY Period & Pregnancy Tracker,86,5019,0.0171,subscri|premium|paywall|pay for|locked,1.849
+2026-11-06T20:03:12Z,paywall,V,IVY Wellness Coach,36,1207,0.0298,subscri|premium|paywall|pay for|locked,2.0
+2026-11-06T20:03:12Z,perimenopause,D,IVY Period & Pregnancy Tracker,59,5019,0.0118,perimenopause|menopause|irregular,3.339
+2026-11-06T20:03:12Z,perimenopause,D,IVY Wellness Coach,6,1207,0.005,perimenopause|menopause|irregular,2.5
+2026-11-06T20:03:12Z,ai_assistant,S,IVY Period & Pregnancy Tracker,12,5019,0.0024,\bai\b|chatbot|chat bot|assistant,2.75
+2026-11-06T20:03:12Z,ai_assistant,S,IVY Wellness Coach,2,1207,0.0017,\bai\b|chatbot|chat bot|assistant,1.0
+2026-11-06T20:03:12Z,sync_device,F,IVY Period & Pregnancy Tracker,33,5019,0.0066,sync|connect|pair|bluetooth|device,2.0
+2026-11-06T20:03:12Z,sync_device,F,IVY Wellness Coach,385,1207,0.319,sync|connect|pair|bluetooth|device,2.166
+2026-11-06T20:03:12Z,privacy,S,IVY Period & Pregnancy Tracker,12,5019,0.0024,privacy|data sharing|third party|openai|sell my data,1.75
+2026-11-06T20:03:12Z,privacy,S,IVY Wellness Coach,1,1207,0.0008,privacy|data sharing|third party|openai|sell my data,1.0
+2026-11-06T20:03:12Z,price,V,IVY Period & Pregnancy Tracker,24,5019,0.0048,\$|price|cost|charge|refund,1.875
+2026-11-06T20:03:12Z,price,V,IVY Wellness Coach,67,1207,0.0555,\$|price|cost|charge|refund,1.731

@@ -1,0 +1,16 @@
+rubric_cell,requirement,evidence_file,evidence_rows,rows_needed,status,blocker,next_action
+D,"review evidence, both stores",01_corpus/corpus_summary.csv,4,4,SUPPORTED,convenience sample; Coach iOS stops 2026-02-08,disclose sampling and window in the limits
+D,theme coding of the primary sample,03_external/../01_corpus (coding),0,49,MISSING,all 49 sampled reviews have no primary theme,code every review against a 7-theme taxonomy
+D,AI trust context (KFF),03_external/kff_metrics.csv,4,4,SUPPORTED,sampling note still missing,add the survey n and method
+D,own 5-10 person survey,03_external/survey_responses.csv,0,1,MISSING,no responses collected,run the habit-only survey
+D,forum quotes (qualitative side),03_external/reddit_quotes.csv,0,5,MISSING,no quotes captured,"capture short phrases, no usernames"
+D,search interest over time,03_external/google_trends.csv,0,3,MISSING,trends blocked from this machine,open Google Trends manually and record the index
+F,data export / backup / restore capability,02_store/support_capability.csv,4,7,PARTIAL,"only an absence of documentation, not a confirmed limitation","ask support directly, or confirm from in-app settings"
+F,release dates and version timeline,02_store/release_notes.csv,2,4,PARTIAL,January 2026 update not described in current notes,pull the version history from the stores
+F,regulatory line (FDA pathway),03_external/regulatory_records.csv,0,2,MISSING,record named in the Brief but not read at source,read DEN170052 and record the indication and date
+V,"store scale (ratings, installs)",02_store/store_recheck_2026_11_06.csv,2,4,PARTIAL,iOS listings unreachable from this machine,re-check the two iOS listings in a browser
+V,price data,03_external/iap_products.csv,2,4,PARTIAL,no individual price points yet,capture monthly and annual price per app
+V,competitor benchmarks,03_external/competitor_pricing.csv,0,8,MISSING,no competitor price captured,"record Flo, Clue, Oura and Calm tier prices with dates"
+S,"Ivy's own platform language, dated",03_external (ivy_home: fetch failed),0,1,MISSING,ivyhealth.ai unreachable from this machine,open the page and record the exact phrasing with a date
+S,evidence that AI is not a purchase driver,01_corpus/keyword_evidence.csv,1,1,SUPPORTED,,keep the 0.26% figure and pair it with the KFF trust finding
+S,privacy / regulatory context,03_external/regulatory_records.csv,0,1,MISSING,FTC case not read at source,locate the 2021 Flo order

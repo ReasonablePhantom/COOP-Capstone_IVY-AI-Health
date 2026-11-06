@@ -1,0 +1,5 @@
+generated_at,app_name,source_batch,n,n_reply,share_reply,denominator_note
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Our Scrape (US Store),500,479,0.958,reply field populated
+2026-11-06T20:03:12Z,IVY Period & Pregnancy Tracker,Teammate (Global Apple RSS),4519,0,0.0,"reply field all null: unknown, not 'no reply'"
+2026-11-06T20:03:12Z,IVY Wellness Coach,Our Scrape (US Store),500,475,0.95,reply field populated
+2026-11-06T20:03:12Z,IVY Wellness Coach,Teammate (Global Apple RSS),707,0,0.0,"reply field all null: unknown, not 'no reply'"

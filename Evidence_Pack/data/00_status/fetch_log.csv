@@ -1,0 +1,22 @@
+source_id,priority,rubric_cells,url,attempted_at,status,http_code,bytes,content_type,saved_file,error
+iap_ios_coach,P0,V,https://apps.apple.com/us/app/id1005052173,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+iap_ios_tracker,P0,V,https://apps.apple.com/us/app/id436762566,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+iap_play_coach,P0,V,https://play.google.com/store/apps/details?id=com.bellabeat.cacao,2026-11-06T20:03:50Z,OK,200,1141796,text/html; charset=utf-8,raw/iap_play_coach.html,
+iap_play_tracker,P0,V,https://play.google.com/store/apps/details?id=org.nanobit.perioddiary,2026-11-06T20:03:50Z,OK,200,1177206,text/html; charset=utf-8,raw/iap_play_tracker.html,
+ivy_support_home,P0,F,https://support.ivyhealth.ai/,2026-11-06T20:03:50Z,OK,200,16722,text/html; charset=utf-8,raw/ivy_support_home.html,
+ivy_support_search_backup,P0,F,https://support.ivyhealth.ai/hc/en-us/search?query=backup,2026-11-06T20:04:53Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+ivy_support_search_export,P0,F,https://support.ivyhealth.ai/hc/en-us/search?query=export,2026-11-06T20:04:53Z,OK,200,29962,text/html; charset=utf-8,raw/ivy_support_search_export.html,
+ivy_support_search_restore,P0,F,https://support.ivyhealth.ai/hc/en-us/search?query=restore,2026-11-06T20:04:53Z,OK,200,13951,text/html; charset=utf-8,raw/ivy_support_search_restore.html,
+ivy_support_section_gs,P0,F,https://support.ivyhealth.ai/hc/en-us/sections/28711125734418-Getting-Started,2026-11-06T20:04:53Z,OK,200,16498,text/html; charset=utf-8,raw/ivy_support_section_gs.html,
+ivy_support_update,P0,F,https://support.ivyhealth.ai/hc/en-us/articles/28733719986066-Keeping-your-IVY-updated,2026-11-06T20:03:50Z,OK,200,20773,text/html; charset=utf-8,raw/ivy_support_update.html,
+kff_women_online_health,P0,D+S,https://www.kff.org/womens-health-policy/womens-experiences-accessing-health-information-online-trusted-sources-and-contraceptive-information/,2026-11-06T20:03:50Z,OK,200,201883,text/html; charset=UTF-8,raw/kff_women_online_health.html,
+clue,P1,V,https://helloclue.com/,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+fda_den170052,P1,F,https://www.accessdata.fda.gov/cdrh_docs/pdf17/DEN170052.pdf,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+flo_health,P1,V+S,https://flo.health/,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+natural_cycles_hcp,P1,F,https://www.naturalcycles.com/hcp,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+oura_membership,P1,V,https://ouraring.com/membership,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+trends_google,P1,D,https://trends.google.com/trends/explore,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+grand_view_femtech,P2,S,https://www.grandviewresearch.com/industry-analysis/femtech-market-report,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+ivy_home,P2,S,https://ivyhealth.ai/,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,RemoteDisconnected: Remote end closed connection without response
+pew_trackers_2020,P2,F,https://www.pewresearch.org/short-reads/2020/01/09/about-one-in-five-americans-use-a-smart-watch-or-fitness-tracker/,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>
+rock_health,P2,S,https://rockhealth.com/insights/,2026-11-06T20:03:50Z,NETWORK_ERROR,,0,,,URLError: <urlopen error [Errno 54] Connection reset by peer>

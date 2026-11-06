@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-11-06T20:04:53Z",
+  "mode": "live",
+  "sources": 21,
+  "ok": 3,
+  "failed": 1,
+  "by_status": {
+    "NETWORK_ERROR": 1,
+    "OK": 3
+  }
+}
