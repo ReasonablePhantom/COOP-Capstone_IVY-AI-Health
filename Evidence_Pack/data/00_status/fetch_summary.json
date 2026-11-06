@@ -1,11 +1,12 @@
 {
-  "attempted_at": "2026-11-06T20:04:53Z",
+  "attempted_at": "2026-11-06T20:14:53Z",
   "mode": "live",
   "sources": 21,
-  "ok": 3,
-  "failed": 1,
+  "ok": 17,
+  "failed": 4,
   "by_status": {
+    "HTTP_ERROR": 3,
     "NETWORK_ERROR": 1,
-    "OK": 3
+    "OK": 17
   }
 }

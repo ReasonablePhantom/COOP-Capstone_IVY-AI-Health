@@ -75,7 +75,7 @@ add("F", "release dates and version timeline", "02_store/release_notes.csv",
     collected(notes), 4, "January 2026 update not described in current notes",
     "pull the version history from the stores")
 add("F", "regulatory line (FDA pathway)", "03_external/regulatory_records.csv",
-    0, 2, "record named in the Brief but not read at source",
+    collected(reg), 2, "record named in the Brief but not read at source",
     "read DEN170052 and record the indication and date")
 
 add("V", "store scale (ratings, installs)", "02_store/store_recheck_2026_11_06.csv",
@@ -93,7 +93,7 @@ add("S", "Ivy's own platform language, dated", "03_external (ivy_home: fetch fai
 add("S", "evidence that AI is not a purchase driver", "01_corpus/keyword_evidence.csv",
     1, 1, "", "keep the 0.26% figure and pair it with the KFF trust finding")
 add("S", "privacy / regulatory context", "03_external/regulatory_records.csv",
-    0, 1, "FTC case not read at source", "locate the 2021 Flo order")
+    collected(reg), 1, "FTC case not read at source", "locate the 2021 Flo order")
 
 cov = pd.DataFrame(rows)
 cov.to_csv(DATA / "04_gaps" / "rubric_coverage.csv", index=False) if (DATA / "04_gaps").exists() else None

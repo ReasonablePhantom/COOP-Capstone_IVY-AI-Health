@@ -1,9 +1,9 @@
 generated_at,competitor,tier,price_usd,billing_period,trial_days,ai_feature_included,serves_perimenopause,source_url,date_checked,status,notes
-2026-11-06T20:03:41Z,Flo,free,,,,,,https://flo.health/,,NOT_COLLECTED,AI assistant already shipped
-2026-11-06T20:03:41Z,Flo,premium,,,,,,https://flo.health/,,NOT_COLLECTED,AI assistant already shipped
-2026-11-06T20:03:41Z,Clue,free,,,,,,https://helloclue.com/,,NOT_COLLECTED,membership anchor
-2026-11-06T20:03:41Z,Clue,premium,,,,,,https://helloclue.com/,,NOT_COLLECTED,membership anchor
-2026-11-06T20:03:41Z,Oura,free,,,,,,https://ouraring.com/membership,,NOT_COLLECTED,hardware plus subscription
-2026-11-06T20:03:41Z,Oura,premium,,,,,,https://ouraring.com/membership,,NOT_COLLECTED,hardware plus subscription
-2026-11-06T20:03:41Z,Calm,free,,,,,,https://www.calm.com/,,NOT_COLLECTED,content subscription contrast
-2026-11-06T20:03:41Z,Calm,premium,,,,,,https://www.calm.com/,,NOT_COLLECTED,content subscription contrast
+2026-11-06T20:03:41Z,Flo,free,0,none,0,limited,yes,https://flo.health/,2026-11-06,COLLECTED,Free basic cycle and symptom tracking.
+2026-11-06T20:03:41Z,Flo,premium,9.99,month,7,yes,yes,https://flo.health/,2026-11-06,COLLECTED,Flo Premium ($9.99/mo or $59.99/yr) includes Flo Health Assistant AI chat and Perimenopause Mode.
+2026-11-06T20:03:41Z,Clue,free,0,none,0,no,no,https://helloclue.com/,2026-11-06,COLLECTED,Free cycle tracking.
+2026-11-06T20:03:41Z,Clue,premium,9.99,month,7,no,yes,https://helloclue.com/,2026-11-06,COLLECTED,Clue Plus ($9.99/mo or $39.99/yr) includes Perimenopause mode and advanced prediction.
+2026-11-06T20:03:41Z,Oura,free,0,none,0,no,no,https://ouraring.com/membership,2026-11-06,COLLECTED,Requires hardware ring purchase ($299+); basic features without subscription.
+2026-11-06T20:03:41Z,Oura,premium,5.99,month,30,yes,yes,https://ouraring.com/membership,2026-11-06,COLLECTED,$5.99 USD/month or $69.99 USD/year before tax for US members. Free trial month included.
+2026-11-06T20:03:41Z,Calm,free,0,none,0,no,no,https://www.calm.com/,2026-11-06,COLLECTED,Free basic meditations.
+2026-11-06T20:03:41Z,Calm,premium,14.99,month,14,no,no,https://www.calm.com/,2026-11-06,COLLECTED,Calm Premium ($14.99/mo or $69.99/yr) content subscription.

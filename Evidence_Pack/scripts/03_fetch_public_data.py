@@ -55,6 +55,22 @@ def fetch_one(src, timeout=12):
         return dict(status="HTTP_ERROR", http_code=e.code, bytes=0,
                     content_type="", saved_file="", error=str(e.reason))
     except Exception as e:                                   # noqa: BLE001
+        # Fallback to curl for modern TLS / CDN anti-bot resilience on macOS
+        import subprocess
+        name = f"{src['id']}.pdf" if "pdf" in src["url"].lower() else f"{src['id']}.html"
+        out_path = RAW / name
+        cmd = ["curl", "-s", "-L", "-A", UA["User-Agent"], "--max-time", str(timeout), src["url"], "-o", str(out_path), "-w", "%{http_code}"]
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True)
+            code = res.stdout.strip()
+            if code == "200" and out_path.exists() and out_path.stat().st_size > 0:
+                return dict(status="OK", http_code=200, bytes=out_path.stat().st_size,
+                            content_type="text/html", saved_file=f"raw/{name}", error="")
+            elif code and code not in ("000", ""):
+                return dict(status="HTTP_ERROR", http_code=int(code), bytes=0,
+                            content_type="", saved_file="", error=f"HTTP {code}")
+        except Exception:
+            pass
         return dict(status="NETWORK_ERROR", http_code="", bytes=0,
                     content_type="", saved_file="", error=f"{type(e).__name__}: {e}")
 
