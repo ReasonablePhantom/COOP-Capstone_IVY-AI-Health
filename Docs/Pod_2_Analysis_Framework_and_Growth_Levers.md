@@ -197,6 +197,74 @@ Key results (put the date on any public baseline; where none is public, write "s
 
 ---
 
+## 9. Retention mechanism: how the assistant is supposed to move the metric
+
+The pod question asks what the assistant should do next **"to increase daily use and retention."**
+That sentence hides a causal claim. This section separates it into three links so a reviewer can see
+which part is evidence and which part is inference.
+
+### 9.1 The claim under test
+
+> Rebuilding the assistant on the user's own cycle history will raise 30-day retention.
+
+Stated this way it is testable and falsifiable. Stated as "AI improves engagement" it is neither, and
+the corpus does not support it: only 13 of 5,019 Tracker reviews mention AI at all (0.26%).
+
+### 9.2 The chain, link by link
+
+| Link | What must be true | Evidence we hold | Strength | What would break it |
+|---|---|---|---|---|
+| **1. Users leave for a reason the product controls** | Churn is driven by lost data, locked features and unexplained predictions, not by a lack of features | 426 reviews on lost/deleted/erased data (mean 1.61); 88 on the paywall (mean 1.83, 76% at 1–2 star); 59 on irregular cycles or perimenopause; January 2026 monthly mean 1.38 | **Strong**, directly counted | If churn turned out to be driven by price or by switching to a competitor, this link weakens |
+| **2. The assistant is the surface that can address those reasons** | An explanation layer can carry the fix at the moment of doubt | The assistant already sits inside the Tracker (Brief p.3); reviews show it is present but often broken or behind the paywall | **Medium**: proves the surface exists, not that it can fix anything | If the assistant is a thin chat shell with no access to the cycle model, link 2 fails |
+| **3. Fixing the reason retains the user** | Users who see a correct explanation stay | **None. This is the inference.** | **Weak** | Any test where explained predictions do not change stated intent to stay |
+
+Links 1 and 2 are defensible from the corpus today. Link 3 is a mechanism argument, and must be
+labelled as one in the deck, the memo and the scorecard.
+
+### 9.3 Cost evidence does not belong in this chain
+
+The operating-cost model (`IVY_LLM_Cost_and_KV_Cache_Analysis.md`) shows the assistant is cheap to
+run, around one cent per user per month in the modelled case. That answers "can Ivy afford it", which
+is **Feasibility**. It says nothing about whether users stay, which is **Desirability**. Putting a
+cost-saving percentage on the retention slide invites the question "so saving money makes users
+stay?", which cannot be answered.
+
+### 9.4 The cheapest test for link 3
+
+A 5–10 person survey, habits and preferences only, never health details (Brief §10). Ask:
+
+1. "When the prediction is wrong, what do you do?" — measures whether doubt leads to churn behaviour.
+2. "If the app explained why this cycle differed, would that change anything for you?" — measures
+   stated value of explanation, not of AI.
+3. "What would make you stop using a cycle app?" — collects the self-reported churn trigger to
+   compare against link 1.
+
+Record counts, not percentages ("6 of 8 said"), and state that respondents are not Ivy users.
+Optionally run the same three questions against 20 recent one-star reviews and compare the themes:
+if review complaints and survey answers point at the same triggers, link 1 is corroborated by two
+independent sources.
+
+### 9.5 How to phrase it
+
+> "Users do not leave because a cycle app lacks a chatbot. They leave when it loses their history or
+> stops explaining its predictions: 426 reviews describe lost data and 88 describe features locked
+> behind a paywall. Our position is that R&D should fund the explanation layer, so the assistant can
+> account for a cycle that does not match its prediction. We cannot yet prove that explanation
+> retains users; that is the key result we propose to measure in 2027."
+
+That paragraph is honest, cites counts, and converts the unproven link into a measurable commitment.
+
+### 9.6 Key result to attach
+
+- Retention: 30-day retention of new users, baseline **set in Q1 2027** (no public baseline exists),
+  target +X pp by Q4 2027.
+- Mechanism check: share of users who open the explanation after a prediction miss, baseline set in
+  Q1 2027.
+- Guardrail: one-star share mentioning "prediction" should not rise; if it does, the explanation
+  layer is not working.
+
+---
+
 ### Appendix: one-off figures used in these notes
 
 - Corpus: 6,726 reviews; Tracker 5,019, Coach 1,707; Apple 5,726, Play 1,000.

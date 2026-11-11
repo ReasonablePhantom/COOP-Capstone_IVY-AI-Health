@@ -1,0 +1,9 @@
+model_id,display_name,provider,model_tier,context_window,input_cost_per_1m,cached_read_cost_per_1m,cache_write_cost_per_1m,output_cost_per_1m,cache_ttl_minutes,supports_prompt_caching
+gpt-4o-mini,gpt-4o-mini,OpenAI,Budget / Fast,128000,0.165,0.083,0.165,0.66,5,True
+gemini-2.0-flash,gemini-2.0-flash,Google,Budget / Fast,128000,0.15,0.0375,0.15,0.6,60,True
+claude-3-5-haiku-20241022,claude-3-5-haiku-20241022,Anthropic,Budget / Fast,200000,0.8,0.08,1.0,4.0,5,True
+deepseek-chat,deepseek-chat,DeepSeek,Budget / Fast,131072,0.28,0.028,0.28,0.42,60,True
+gpt-4o,gpt-4o,OpenAI,Frontier / Clinical,128000,2.75,1.375,1.38,11.0,5,True
+claude-3-5-sonnet-20241022,claude-3-5-sonnet-20241022,Anthropic,Frontier / Clinical,200000,3.0,0.3,3.75,15.0,5,True
+deepseek-reasoner,deepseek-reasoner,DeepSeek,Reasoning / Clinical,131072,0.28,0.028,0.28,0.42,60,True
+meta-llama/llama-3.3-70b-instruct,llama-3.3-70b-instruct,Meta/vLLM,Open Weights,12288,0.135,0.027,0.135,0.4,60,True
